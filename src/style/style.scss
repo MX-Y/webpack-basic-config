@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'ali-icon';
+    src: url(../assets/fonts/ali-icon.eot);
+    src: url(../assets/fonts/ali-icon.eot?#iefix-wepioz) format('embedded-opentype'),
+    url(../assets/fonts/ali-icon.svg) format('svg'),
+    url(../assets/fonts/ali-icon.woff) format('woff'),
+    url(../assets/fonts/ali-icon.ttf) format('truetype');
+}
+html {
+    font-size: 10px;
+}
+body {
+    line-height: 1.8;
+    color: #111;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    color: #111;
+    text-decoration: none;
+    &:link {
+        text-decoration: none;
+    }
+    &:visited {
+        text-decoration: none;
+    }
+    &:hover {
+        text-decoration: none;
+
+    }
+    &:active {
+        text-decoration: none;
+    }
+}
+.ali-icon {
+    &::before {
+        font-family: 'ali-icon';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        display: inline-block;
+      }
+      &::after {
+        font-family: 'ali-icon';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        display: inline-block;
+      }
+}
+.icon-add {
+    &::before {
+        content: '\e90d';
+    }
+}
+.icon-arrow-up {
+    &::before {
+        content: '\e900';
+    }
+}
+.icon-arrow-down {
+    &::before {
+        content: '\e901';
+    }
+}
+.icon-arrow-forward {
+    &::before {
+        content: '\e902';
+    }
+}
+.icon-arrow-backward {
+    &::before {
+        content: '\e903';
+    }
+}
+.icon-delete {
+    &::before {
+        content: '\e905';
+    }
+}
+.icon-user {
+    &::before {
+        content: '\e906';
+    }
+}
+.icon-info {
+    &::before {
+        content: '\e907';
+    }
+}
+.icon-search {
+    &::before {
+        content: '\e908';
+    }
+}
+.icon-message {
+    &::before {
+        content: '\e909';
+    }
+}
+.icon-favorite {
+    &::before {
+        content: '\e90a';
+    }
+}
+.icon-gift {
+    &::before {
+        content: '\e90b';
+    }
+}
+.icon-cart {
+    &::before {
+        content: '\e90c';
+    }
+}
+
+// backg global
+.backg-gray-50 {
+    background-color: #fafafa;
+}
